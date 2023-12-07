@@ -1,3 +1,4 @@
+com/vamk/e2001024/studentmanager/security/RestConfig.class
 com/vamk/e2001024/studentmanager/StudentManagerApplication.class
 com/vamk/e2001024/studentmanager/repository/StudentRepository.class
 com/vamk/e2001024/studentmanager/controller/CourseController.class
