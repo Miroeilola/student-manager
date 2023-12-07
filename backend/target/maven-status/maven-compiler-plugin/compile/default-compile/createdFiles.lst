@@ -1,5 +1,7 @@
+com/vamk/e2001024/studentmanager/security/WebConfig.class
 com/vamk/e2001024/studentmanager/StudentManagerApplication.class
 com/vamk/e2001024/studentmanager/repository/StudentRepository.class
+com/vamk/e2001024/studentmanager/security/WebConfig$1.class
 com/vamk/e2001024/studentmanager/controller/CourseController.class
 com/vamk/e2001024/studentmanager/repository/CourseRepository.class
 com/vamk/e2001024/studentmanager/service/StudentService.class

@@ -7,9 +7,11 @@ import { Course } from '../models/course';
   providedIn: 'root'
 })
 export class CourseService {
+  private baseUrl = '/api/courses';
+
   constructor(private http: HttpClient) { }
 
-  getCourses(): Observable<Course> {
-    return this.http.get<Course>("http://localhost:8080/courses");
+  getCourses(): Observable<Course[]> {
+    return this.http.get<Course[]>(this.baseUrl);
   }
 }

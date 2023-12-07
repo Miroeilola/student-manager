@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "*")
-@RequestMapping("/students")
+@CrossOrigin(origins = "http://frontend:80")
+@RequestMapping("/api/students")
 public class StudentController {
 
     @Autowired

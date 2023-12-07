@@ -16,8 +16,8 @@ import com.vamk.e2001024.studentmanager.model.Course;
 import com.vamk.e2001024.studentmanager.service.CourseService;
 
 @RestController
-@CrossOrigin(origins = "*")
-@RequestMapping("/courses")
+@CrossOrigin(origins = "http://frontend:80")
+@RequestMapping("/api/courses")
 public class CourseController {
 
     @Autowired
