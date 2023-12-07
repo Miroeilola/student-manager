@@ -15,7 +15,7 @@ public class RestConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
         // Update with your frontend's URL or use '*' to allow all origins
-        config.addAllowedOrigin("http://localhost:80");
+        config.addAllowedOrigin("*");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", config);
