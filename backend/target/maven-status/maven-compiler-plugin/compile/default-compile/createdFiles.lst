@@ -1,0 +1,9 @@
+com/vamk/e2001024/studentmanager/StudentManagerApplication.class
+com/vamk/e2001024/studentmanager/repository/StudentRepository.class
+com/vamk/e2001024/studentmanager/controller/CourseController.class
+com/vamk/e2001024/studentmanager/repository/CourseRepository.class
+com/vamk/e2001024/studentmanager/service/StudentService.class
+com/vamk/e2001024/studentmanager/service/CourseService.class
+com/vamk/e2001024/studentmanager/controller/StudentController.class
+com/vamk/e2001024/studentmanager/model/Course.class
+com/vamk/e2001024/studentmanager/model/Student.class

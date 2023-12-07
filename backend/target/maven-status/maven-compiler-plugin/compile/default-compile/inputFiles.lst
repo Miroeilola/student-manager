@@ -1,0 +1,9 @@
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/repository/StudentRepository.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/controller/StudentController.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/repository/CourseRepository.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/controller/CourseController.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/model/Course.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/model/Student.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/service/CourseService.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/service/StudentService.java
+/Users/miro/Programming/Vamk/JavaPalvelinohjelmointi/student-manager/backend/src/main/java/com/vamk/e2001024/studentmanager/StudentManagerApplication.java
