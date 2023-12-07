@@ -12,6 +12,7 @@ public class StudentController {
     @Autowired
     private StudentService studentService;
 
+    @CrossOrigin(origins = "*")
     @GetMapping
     public ResponseEntity<?> getAllStudents() {
         return ResponseEntity.ok(studentService.getAllStudents());
