@@ -16,13 +16,13 @@ import com.vamk.e2001024.studentmanager.model.Course;
 import com.vamk.e2001024.studentmanager.service.CourseService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/courses")
 public class CourseController {
 
     @Autowired
     private CourseService courseService;
 
-    @CrossOrigin(origins = "*")
     @GetMapping
     public ResponseEntity<?> getAllCourses() {
         return ResponseEntity.ok(courseService.getAllCourses());

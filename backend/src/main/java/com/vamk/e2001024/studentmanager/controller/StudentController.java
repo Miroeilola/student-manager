@@ -6,13 +6,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/students")
 public class StudentController {
 
     @Autowired
     private StudentService studentService;
 
-    @CrossOrigin(origins = "*")
     @GetMapping
     public ResponseEntity<?> getAllStudents() {
         return ResponseEntity.ok(studentService.getAllStudents());
