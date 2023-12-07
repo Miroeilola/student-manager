@@ -33,9 +33,9 @@ public class StudentService {
         Student student = studentRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Student not found with id " + id));
 
-        student.setName(studentDetails.getName());
+        student.setFirstname(studentDetails.getFirstname());
+        student.setLastname(studentDetails.getLastname());
         student.setEmail(studentDetails.getEmail());
-        // Update other fields as necessary
 
         return studentRepository.save(student);
     }

@@ -1,5 +1,6 @@
 export interface Student {
-    id: string;
-    username: string;
-    password: string;
+    id: number;
+    firstname: string;
+    lastname: string;
+    emaild: string;
 }

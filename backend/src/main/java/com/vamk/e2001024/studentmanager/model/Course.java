@@ -21,15 +21,15 @@ public class Course {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "title")
-    private String title;
+    @Column(name = "name")
+    private String name;
 
-    @Column(name = "description")
-    private String description;
+    @Column(name = "teacher")
+    private String teacher;
 
     @ManyToMany
     @JoinTable(
-        name = "course_student",
+        name = "studentJoinCourse",
         joinColumns = @JoinColumn(name = "course_id"),
         inverseJoinColumns = @JoinColumn(name = "student_id")
     )
@@ -40,12 +40,12 @@ public class Course {
         return id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public String getDescription() {
-        return description;
+    public String getTeacher() {
+        return teacher;
     }
 
     public Set<Student> getEnrolledStudents() {
@@ -57,12 +57,12 @@ public class Course {
         this.id = id;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name; 
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setTeacher(String teacher) {
+        this.teacher = teacher;
     }
 
     public void setEnrolledStudents(Set<Student> enrolledStudents) {

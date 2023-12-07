@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MatTableDataSource } from '@angular/material/table';
+import { Course } from 'src/app/models/course';
 import { CourseService } from 'src/app/services/course.service';
 
 @Component({
@@ -6,13 +8,15 @@ import { CourseService } from 'src/app/services/course.service';
   templateUrl: './courses.component.html',
   styleUrls: ['./courses.component.scss']
 })
-export class CoursesComponent {
+export class CoursesComponent implements OnInit {
+  dataSource = new MatTableDataSource<Course>();
+  displayedColumns: string[] = ['id', 'name', 'teacher'];
 
   constructor(private courseService: CourseService) { }
 
   ngOnInit(): void {
     this.courseService.getCourses().subscribe((data) => {
-      console.log(data);
+      this.dataSource.data = data;
     });
   }
 }
