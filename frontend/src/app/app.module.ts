@@ -18,7 +18,7 @@ import { MatTableModule } from '@angular/material/table';
     StudentsComponent,
     CoursesComponent,
     CoursesComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
