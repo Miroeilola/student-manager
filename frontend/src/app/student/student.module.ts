@@ -5,6 +5,8 @@ import { StudentDetailComponent } from './student-detail/student-detail.componen
 import { StudentEditComponent } from './student-edit/student-edit.component';
 import { StudentRoutingModule } from './student-routing.module';
 import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule} from '@angular/material/paginator';
 
 
 
@@ -17,7 +19,9 @@ import { MatTableModule } from '@angular/material/table';
   imports: [
     CommonModule,
     StudentRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule
   ]
 })
 export class StudentModule { }

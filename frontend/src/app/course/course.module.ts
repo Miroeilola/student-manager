@@ -5,6 +5,8 @@ import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { CourseEditComponent } from './course-edit/course-edit.component';
 import { CourseRoutingModule } from './course-routing.module';
 import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 
 
@@ -17,7 +19,9 @@ import { MatTableModule } from '@angular/material/table';
   imports: [
     CommonModule,
     CourseRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule
   ]
 })
 export class CourseModule { }
